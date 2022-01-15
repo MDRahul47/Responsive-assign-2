@@ -63,7 +63,7 @@ p,a,li{
     align-items: center;
     justify-content: space-between;
     margin-top: 145px;
-    margin-bottom: 150px;
+    margin-bottom: 110px;
    
 }
 span{
@@ -95,8 +95,13 @@ span{
     color: #3A3A3A;
     margin-bottom: 26px;
 }
+.link-button:hover{
+    background-color: white;
+    color:#4169E1 ;
+    border: 1px solid #4169E1;
+}
 .link-button{
-    
+    transition: all 0.3s linear;
     text-decoration: none;
     background-color:#4169E1 ;
     color: white;
@@ -109,6 +114,51 @@ span{
     padding: 0 10px ;
 }
 
+.ADD{
+    height: 300PX;
+    background-color:#4169E1 ;
+    border-radius: 10PX;
+    color: white;
+    display: flex;
+    
+}
+.add-link{
+    transition: all 0.3s linear;
+    text-decoration: none;
+    background-color:white ;
+    color:  #4169E1;
+    font-weight: 700;
+    padding: 10px 25px;
+    border-radius: 7px;
+
+}
+.add-pic img{
+    width: 70%;
+   
+}
+.add-pra{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    padding: 30px; 
+}
+.offer{
+    font-size:40px;
+    font-weight: 300;
+    padding: 8px;
+}
+.offer-details{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 8px;
+}
+.add-pic{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
 
 /* ...........................................product........................... */
 
@@ -161,4 +211,56 @@ h3,h4{
 .pro-details{
     font-size :14px;
     color: #787885;
+  }
+
+.more{
+    color: #4169E1;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: right;
+}
+
+
+
+
+  /* ....................................footer................................. */
+  /* ....................................footer................................. */
+  
+  footer{
+      background-color: #0d1425;
+      text-align: center;
+      padding: 50px;
+      color: #FFFFFF;
+      margin-top: 80px;
+  }
+  
+  .last{
+      font-weight: 700;
+      font-size: 24px;
+      padding-bottom:3px;
+      
+  }
+  #last-pra{
+    font-weight: 700;
+    font-size: 14px;
+    padding-bottom:1px;
+    
+  }
+  #copy-right{
+      margin-top: -10px;
+      font-size: 14px;
+      font-weight: 700;
+      padding-bottom:17px;
+  }
+
+#icon-log{
+    padding:0 8px ;
+}
+  .icon{
+    Width :32px;
+    Height:32px;
+    color: #FFFFFF;
+    text-align: center;
   }
