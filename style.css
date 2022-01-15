@@ -63,7 +63,7 @@ p,a,li{
     align-items: center;
     justify-content: space-between;
     margin-top: 145px;
-    margin-bottom: 110px;
+    margin-bottom: 150px;
    
 }
 span{
@@ -111,18 +111,21 @@ span{
 
 }
 .fa-arrow-right{
-    padding: 0 10px ;
+    padding: 10px 10px ;
+    
 }
-
+/* ..........................................offer...........................  */
+/* ..........................................offer...........................  */
 .ADD{
     height: 300PX;
     background-color:#4169E1 ;
-    border-radius: 10PX;
+    border-radius: 20PX;
     color: white;
     display: flex;
     
 }
 .add-link{
+   
     transition: all 0.3s linear;
     text-decoration: none;
     background-color:white ;
@@ -130,6 +133,7 @@ span{
     font-weight: 700;
     padding: 10px 25px;
     border-radius: 7px;
+  
 
 }
 .add-pic img{
@@ -152,6 +156,7 @@ span{
     font-size: 16px;
     font-weight: 700;
     padding: 8px;
+    margin-bottom: 25px;
 }
 .add-pic{
     width: 40%;
@@ -163,7 +168,7 @@ span{
 /* ...........................................product........................... */
 
 .products-container{
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 .product-main{
     box-shadow: 10px 10px 30px gray;
