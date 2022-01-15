@@ -1,0 +1,53 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 1000px;
+    margin: 0 auto;
+}
+header{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.nav-links li{
+    list-style: none;
+    display: inline-block;
+}
+p,a,li{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    font-weight: 700;
+    font-size: 24px;
+    padding: 10px 20px;
+    cursor:pointer;
+    letter-spacing: .1em;
+}
+.nav-links li{
+    display: inline-block;
+    list-style: none;
+}
+.nav-links li a{
+    margin: 0 15px;
+    transition: all .3s ease-in;
+    font-size: 16px;
+    font-weight: 600;
+}
+.nav-links li a:hover{
+    color: #4169E1;
+} 
+
+.fa-search{
+    margin: 0 15px;
+    font-size: 16px;
+}
+.fa-shopping-cart{
+    margin: 0 15px;
+    font-size: 16px;
+}
