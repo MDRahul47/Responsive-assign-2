@@ -14,6 +14,10 @@ header{
     align-items: center;
    
 }
+
+ /* ..................................nav start here ...............................  */
+/* ...................................nav start here ................................  */
+
 .nav-links li{
     list-style: none;
     display: inline-block;
@@ -25,7 +29,7 @@ p,a,li{
 .logo{
     font-weight: 700;
     font-size: 24px;
-    padding: 10px 20px;
+    padding: 10px 20px 10px 0px;
     cursor:pointer;
     letter-spacing: .1em;
 }
@@ -50,4 +54,50 @@ p,a,li{
 .fa-shopping-cart{
     margin: 0 15px;
     font-size: 16px;
+} 
+
+/* .........................................main title and img here ..........................  */
+/* .........................................main title and img here ..........................  */
+#container{
+    display: flex;
+    margin-top: 145px;
+    margin-bottom: 150px;
+   
+}
+
+.title{
+    width: 50%;
+}
+.image{
+    width: 50%;
+    padding-left: 5%;
+}
+.title-info{
+    font-size:52px;
+    font-weight: 700;
+    color: #3A3A3A;
+    margin-bottom: 16px;
+}
+.title-details{
+    font-weight: 600;
+    font-size: 16px;
+    color: #3A3A3A;
+    margin-bottom: 26px;
+}
+.link-button{
+    
+    text-decoration: none;
+    background-color:#4169E1 ;
+    color: white;
+    font-weight: 700;
+    padding: 10px 25px;
+    border-radius: 7px;
+
+}
+.fa-arrow-right{
+    padding: 0 10px ;
+}
+.image img{   
+    width: 480px;
+    height: 450px;  
 }
