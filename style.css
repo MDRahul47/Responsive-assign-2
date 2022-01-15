@@ -60,9 +60,14 @@ p,a,li{
 /* .........................................main title and img here ..........................  */
 #container{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     margin-top: 145px;
     margin-bottom: 150px;
    
+}
+span{
+    color: #4169E1;
 }
 
 .title{
@@ -71,6 +76,12 @@ p,a,li{
 .image{
     width: 50%;
     padding-left: 5%;
+}
+.image img{   
+    width: 440px;
+    height: 410px;  
+    background-image: url(./images/Circle\ design.svg);
+
 }
 .title-info{
     font-size:52px;
@@ -97,7 +108,57 @@ p,a,li{
 .fa-arrow-right{
     padding: 0 10px ;
 }
-.image img{   
-    width: 480px;
-    height: 450px;  
+
+
+/* ...........................................product........................... */
+
+.products-container{
+    margin-bottom: 150px;
 }
+.product-main{
+    box-shadow: 10px 10px 30px gray;
+    margin-bottom: 30px;
+}
+.alll-products{
+    padding: 10px;
+}
+.products-title{
+    font-size:28px;
+    font-weight: 700px;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+.all-product{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+}
+.image-product img{
+    width: 300px;
+    height: 256px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+}
+h3,h4{
+    margin-bottom: 14px;
+}
+
+.product-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.star{
+    color: #FFC014;
+    font-size:7px;
+}
+.emety{
+    color: #AEAEAE;
+    font-size:7px;
+  }
+
+.pro-details{
+    font-size :14px;
+    color: #787885;
+  }
